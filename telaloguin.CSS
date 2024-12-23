@@ -1,0 +1,45 @@
+body{
+            display: flex; /* Usando Flexbox */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100vh; /* Altura da janela do navegador */
+            margin: 0; /* Remove margens padrão */
+}
+.centralizar {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px; /* Adiciona 50 pixels de espaço acima do texto */
+}
+.quadrado{
+    width: 600px; /* Largura do quadrado */
+    height: 900px; /* Altura do quadrado */
+    background-color: rgb(139, 139, 139); /* Cor de fundo do quadrado */
+    border: 2px solid black; /* Borda do quadrado */
+    margin: 20px; /* Espaçamento externo */
+   
+}
+.botao {
+    background-color: #0300af; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Permite definir largura e altura */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.botao:hover {
+    background-color: #002fff; /* Cor de fundo ao passar o mouse */
+}
+.container {
+    display: flex; /* Usando Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha os itens no início do contêiner */
+    height: 100vh; /* Altura da janela do navegador */
+    margin: 0; /* Remove margens padrão */
+}       
